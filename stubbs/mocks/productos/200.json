@@ -1,0 +1,74 @@
+[
+  {
+    "id": "23943ndjk34s3933fdsd2",
+    "sku": 90932232132,
+    "nombre": "Smart TV 32 - Philips 450STV",
+    "marca": "Philips",
+    "precio": 156990,
+    "descripcion": "Smart TV con androidTV de 32 pulgadas"
+  },
+  {
+    "id": "23223ndzzx32b33fdsd2",
+    "sku": 90907432136,
+    "nombre": "Smart TV 43 - Philips 480STV",
+    "marca": "Philips",
+    "precio": 190990,
+    "descripcion": "Smart TV con androidTV de 43 pulgadas"
+  },
+  {
+    "id": "567t4ndzzx3hb33fgsd2",
+    "sku": 90822432436,
+    "nombre": "Smart TV 55 - Samsung OLED 55HQO",
+    "marca": "Samsung",
+    "precio": 309990,
+    "descripcion": "Smart TV con un sistema operativo de mierda pero con buena calidad de imagen."
+  },
+  {
+    "id": "120f4ndzi83hb33x4cf5",
+    "sku": 91876885224,
+    "nombre": "Smart TV 43 - LG QLED",
+    "marca": "LG",
+    "precio": 209990,
+    "descripcion": "Smart TV con WebOS y con buena calidad de imagen."
+  },
+  {
+    "id": "127j4ndzi84rt33x4cf5",
+    "sku": 91887234280,
+    "nombre": "Smart TV 55 - LG QLED",
+    "marca": "LG",
+    "precio": 314990,
+    "descripcion": "Smart TV con WebOS y con buena calidad de imagen."
+  },
+  {
+    "id": "567t4ndzzx3hb33fgsd2",
+    "sku": 92773432422,
+    "nombre": "Smart TV 55 - Hisense OLED 349t",
+    "marca": "Hisense",
+    "precio": 279990,
+    "descripcion": "Smart TV chino con buena calidad - precio."
+  },
+  {
+    "id": "120f4hf45t3hb33x4cf5",
+    "sku": 91440585221,
+    "nombre": "Smart TV 32 - LG QLED",
+    "marca": "LG",
+    "precio": 149990,
+    "descripcion": "Smart TV con WebOS y con buena calidad de imagen."
+  },
+  {
+    "id": "237f45g7t84rt33x4t48",
+    "sku": 91843437231,
+    "nombre": "Smart TV 43 - Sony Bravia",
+    "marca": "Sony",
+    "precio": 234990,
+    "descripcion": "Es Sony y por eso es caro."
+  },
+  {
+    "id": "237f98g7t84rx4r64t48",
+    "sku": 91263432436,
+    "nombre": "Smart TV 32 - Sony Bravia",
+    "marca": "Sony",
+    "precio": 144990,
+    "descripcion": "Es Sony y por eso es caro."
+  }
+]

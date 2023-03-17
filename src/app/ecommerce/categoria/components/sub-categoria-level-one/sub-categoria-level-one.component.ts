@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { FormControl } from '@angular/forms';
+import { ProductoService } from 'src/app/core/services/producto/producto.service';
+import { Producto } from 'src/app/shared/interfaces/producto';
 
 @Component({
   selector: 'app-sub-categoria-level-one',
@@ -7,7 +10,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SubCategoriaLevelOneComponent implements OnInit {
 
-  constructor() { }
+  constructor(private productoSvc: ProductoService) { }
+
+  listProducto: Producto[] = []
+  results: Producto[] = []
+  searchProducto = new FormControl('');
 
   ngOnInit(): void {
   }

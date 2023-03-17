@@ -5,19 +5,21 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CarroComprasPagaModule } from './ecommerce/carro-compras-paga/carro-compras-paga.module';
 import { CategoriaModule } from './ecommerce/categoria/categoria.module';
-import { HomeComponent } from './ecommerce/home/home.component';
+import { HomeModule } from './ecommerce/home/home.module';
 import { ProductoModule } from './ecommerce/producto/producto.module';
 import { SharedModule } from './shared/shared.module';
+import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 
 @NgModule({
   declarations: [
     AppComponent
   ],
   imports: [
+    HttpClientModule,
     ProductoModule,
     SharedModule,
     CarroComprasPagaModule,
-    HomeComponent,
+    HomeModule,
     CategoriaModule,
     BrowserModule,
     AppRoutingModule

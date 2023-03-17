@@ -1,0 +1,16 @@
+[{
+    "request": {
+      "url": "/productos",
+      "query": {},
+      "post": null,
+      "method": "GET"
+    },
+    "response": {
+      "status": 200,
+      "headers": {
+        "Content-Type": "application/json",
+        "Access-Control-Allow-Origin": "*"
+      },
+      "file": "mocks/productos/200.json"
+    }
+  }]
