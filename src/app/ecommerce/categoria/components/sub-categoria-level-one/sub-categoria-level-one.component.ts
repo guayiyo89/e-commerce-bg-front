@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { FormControl } from '@angular/forms';
+import { UntypedFormControl } from '@angular/forms';
 import { ProductoService } from 'src/app/core/services/producto/producto.service';
 import { Producto } from 'src/app/shared/interfaces/producto';
 
@@ -14,7 +14,7 @@ export class SubCategoriaLevelOneComponent implements OnInit {
 
   listProducto: Producto[] = []
   results: Producto[] = []
-  searchProducto = new FormControl('');
+  searchProducto = new UntypedFormControl('');
 
   ngOnInit(): void {
   }
